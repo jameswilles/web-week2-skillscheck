@@ -5,7 +5,7 @@
 // Create a new array called 'faveColors' and assign it a value of your three favorite colors as strings.
 
 // CODE HERE
-let faveColors = [`White`, `Red`, `Blue`]
+let faveColors = [`orange`, `green`, `blue`]
 
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstName, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
