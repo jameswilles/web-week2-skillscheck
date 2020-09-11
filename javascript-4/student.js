@@ -74,10 +74,10 @@ const setPowers = (arr) => {
 //Lastly, create a function called 'redactInfo' that will take in an object called 'obj' as a parameter. Now, imagine your super hero needs to go undercover, and you need to remove all info about them. That is what this function will do. In your function, loop over the obj parameter passed in, and change each keys value to 'redacted'. Outside of the loop but still in the redactInfo function, run the function redacted() which is a function we created that will update the text on the screen.
 
 // CODE HERE
-
+// pretty sure this is the part that is working incorrectly, not how it interacts with other codere
 function redactInfo(obj) {
   for(let key in obj) {
-    obj.key = `redacted`
+    obj[key] = `redacted`
   }
   redacted()
 }
